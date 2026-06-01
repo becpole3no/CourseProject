@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="MainWindow.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="Algorithms\Search\BinarySearch.cpp">
+      <Filter>Algorithms\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Search\LinearSearch.cpp">
+      <Filter>Algorithms\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Sort\BubbleSort.cpp">
+      <Filter>Algorithms\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Sort\InsertionSort.cpp">
+      <Filter>Algorithms\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Sort\MergeSort.cpp">
+      <Filter>Algorithms\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Sort\QuickSort.cpp">
+      <Filter>Algorithms\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Sort\SelectionSort.cpp">
+      <Filter>Algorithms\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SearchManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SortManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\Analyzer.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\DataManager.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Algorithms\Search\BinarySearch.h">
+      <Filter>Algorithms\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Search\LinearSearch.h">
+      <Filter>Algorithms\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Search\SearchAlgorithm.h">
+      <Filter>Algorithms\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Sort\BubbleSort.h">
+      <Filter>Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Sort\InsertionSort.h">
+      <Filter>Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Sort\MergeSort.h">
+      <Filter>Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Sort\QuickSort.h">
+      <Filter>Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Sort\SelectionSort.h">
+      <Filter>Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms\Sort\SortAlgorithm.h">
+      <Filter>Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SearchManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SortManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\AlgorithmStats.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\Analyzer.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\DataManager.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{bb0b5c8c-20db-4397-b1cc-4a29be01d473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{3ee8f667-fb3a-46d7-a0b8-a489a2254f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{b73379fd-a752-4997-9f85-fb08ee5beb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{e2226721-b2e7-4488-bb47-805df41c630e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{576cd74f-8c9d-449c-8680-59834e7eaf4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Search">
+      <UniqueIdentifier>{d9822b09-ce1b-4598-b1de-c33ea013f201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Sort">
+      <UniqueIdentifier>{09196887-87c6-4ca8-ac89-29a050954038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{222f138d-7835-4f62-92f8-d33de3d46b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{58e707e4-4631-49ef-903d-c1124620f8fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natstepfilter" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Black.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-BlackItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Bold.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-BoldItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Heavy.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-HeavyItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Light.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-LightItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Medium.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-MediumItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Normal.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-NormalItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Semibold.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-SemiboldItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Thin.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-ThinItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-Ultralight.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+    <Font Include="Resources\Fonts\SF-Pro-Display-UltralightItalic.otf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
