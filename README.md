@@ -42,4 +42,4 @@
 
 ## Скриншот программы
 
-![Главное окно приложения](images/main-window.png)
+<img src="images/main-window.png" width="800">
